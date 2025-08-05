@@ -7,6 +7,10 @@ import { Mail, Github, Linkedin } from "lucide-react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import React from "react"; // ← Add this line
+import { Card, CardContent } from "./components/ui/card";
+import { Button } from "./components/ui/button";
+
 
 export default function App() {
   useEffect(() => {
